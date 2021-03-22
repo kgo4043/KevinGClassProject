@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<style>
-		body {font-family: Arial, Helvetica, sans-serif;}
+<head>
+<meta charset="utf-8">
+<style>
+
+	body {font-family: Arial, Helvetica, sans-serif;}
 		* {box-sizing: border-box;}
 		.bg-img {
 		  background-image: url("img_nature.jpg");
@@ -16,7 +17,7 @@
 		.container {
 		  position: absolute;
 		  margin: 20px;
-		  width: auto;
+		  width: 500px;
 		}
 		.topnav {
 		  overflow: hidden;
@@ -37,30 +38,115 @@
 		}
 		</style>
 		</head>
-		<body>
+<style>
+		html {
+			height: 100%;
 
+			width: 1000px;
+			background-color: hsla(100,2%,50%,.2);
+			background-image:
+				url('https://78.media.tumblr.com/cae86e76225a25b17332dfc9cf8b1121/tumblr_p7n8kqHMuD1uy4lhuo1_540.png'),
+				url('https://78.media.tumblr.com/66445d34fe560351d474af69ef3f2fb0/tumblr_p7n908E1Jb1uy4lhuo1_1280.png'),
+				url('https://78.media.tumblr.com/8cd0a12b7d9d5ba2c7d26f42c25de99f/tumblr_p7n8kqHMuD1uy4lhuo2_1280.png'),
+				url('https://78.media.tumblr.com/5ecb41b654f4e8878f59445b948ede50/tumblr_p7n8on19cV1uy4lhuo1_1280.png'),
+				url('https://78.media.tumblr.com/28bd9a2522fbf8981d680317ccbf4282/tumblr_p7n8kqHMuD1uy4lhuo3_1280.png');
+			background-repeat: repeat-x;
+			background-position:
+				0 20%,
+				0 100%,
+				0 50%,
+				0 100%,
+				0 0;
+			background-size:
+				2500px,
+				800px,
+				500px 200px,
+				1000px,
+				400px 260px;
+			animation: 50s para infinite linear;
+			}
+
+		@keyframes para {
+			100% {
+				background-position:
+					-5000px 20%,
+					-800px 95%,
+					500px 50%,
+					1000px 100%,
+					400px 0;
+				}
+			}
+</style>
+	</body>
+</html>
+
+</style>
 		<div class="bg-img">
 		  <div class="container">
 		    <div class="topnav">
 		      <a href="#home">Home</a>
 		      <a href="Preparing.html">Preparing for a cruise</a>
 		      <a href="hobbies.html">Hobbies</a>
+					<a href="images.html">Images</a>
 
 		  </div>
-<header>
-		<h1>CPT422 Hypertext Markup Language Project<br>Created by Kevin Gonsalves</h1>
-	<h2>Welcome to my page!</h2>
+<style>
 
 	<h2>About me:</h2>
-	<p>	My name is Kevin Gonsalves, I am 27 years old and I have performing aircraft maintenance in the United States Air Force for eight years. I have five
-	<p>	brothers, of which I am the second youngest. I have four more classes until I am doing with my Computer Programming degree at Southwestern and I'm
-	<p>	eager to graduate and pursue commission in the Air Force. </p>
-	<p>	I am married and we have two dogs named Winston and Max. In my spare time I enjoy spending time with my family, playing video games, building computers,
-	<p>	and going on cruises.  I am fairly new to computer programming, and have  no experience with HTML. I look forward to building upon this website and learning
-	<p>	as much as I can. Below, I attached a picture of my two dogs
-	<p>	(Winston on the left, Max on the right).</p>
+	body, html {
+	  height: 100%;
+	  margin: 0;
+	  font-family: Arial, Helvetica, sans-serif;
+	}
+	* {
+	  box-sizing: border-box;
+	}
+
+	.bg-image {
+	  background-image: url("photographer.jpg");
+	  filter: blur(8px);
+	  -webkit-filter: blur(8x);
+	  height: 100%;
+
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+
+	}
+	.bg-text {
+	  background-color: rgb(0,0,0);
+	  background-color: rgba(0,0,0, 0.8);
+	  color: white;
+	  font-weight: bold;
+	  border: 3px solid #f1f1f1;
+	  position: absolute;bottom:40px; right:15px;
+	  top: 100%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  z-index: 1;
+	  width: 80%;
+	  height: 450px;
+	  padding: 40px;
+	  text-align: center;
+	}
+	</style>
+
+	</div>
+	</div>
+	</div>
+
+<div class="bg-text">
+
+My name is Kevin Gonsalves, I am 27 years old and I have performing aircraft maintenance in
+the United States Air Force for eight years. I have five brothers, of which I am the second
+youngest. I have four more classes until I am doing with my Computer Programming degree at
+Southwestern. I am married and we have two dogs named Winston and Max. In my spare time I enjoy spending time with my family,
+playing video games, and building computers. I look forward to learning as much HTML as possible in this short six-week course. Lastly,
+I decided to add a page for cruise preparation because there is a lot to consider when taking a vacation.
+
+</div>
+
 </header>
 </body>
 </html>
 
-<img src="https://user-images.githubusercontent.com/79527554/109655921-744cd500-7b29-11eb-9545-9a604ec487ca.jpg" alt="My dogs" width=200"/>
